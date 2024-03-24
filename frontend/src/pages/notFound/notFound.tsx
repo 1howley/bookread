@@ -1,6 +1,5 @@
 function NotFound() {
 
-
   return (
     <>
       

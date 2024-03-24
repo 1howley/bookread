@@ -1,12 +1,8 @@
-import './App.css'
+import MappedRoutes from './routes/routes'
 
 function App() {
-
-
   return (
-    <>
-      
-    </>
+    <MappedRoutes/>
   )
 }
 
