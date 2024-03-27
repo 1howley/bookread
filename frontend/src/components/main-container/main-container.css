@@ -1,0 +1,13 @@
+.containerView {
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--principal-color);
+    border-radius: 10px;
+    display: flex;
+}
+
+img {
+    position: absolute;
+    width: 20vh;
+    border-radius: 10px;
+}
