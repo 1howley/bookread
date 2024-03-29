@@ -1,15 +1,20 @@
 import './main-container.css'
+import Rating from '@mui/material/Rating'
 
 function MainContainer() {
 
     return (
         <div className="containerView">
-            <img src="https://m.media-amazon.com/images/I/81SQWCqtWlL._SY466_.jpg" alt="Capa do Livro" />
-            {/*  stars */}
+
+            <div className="left">
+                <img src="https://m.media-amazon.com/images/I/81SQWCqtWlL._SY466_.jpg" alt="Capa do Livro" />
+                <Rating className='rating' defaultValue={3.5} precision={0.5} size='large' color="" readOnly/>
+            </div>
+
             <div className="bar"></div>
             <div className="text">
-                <h2>O fazedor de velhos</h2>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia et, temporibus veniam sapiente necessitatibus maxime odio cupiditate velit doloribus placeat obcaecati veritatis, blanditiis voluptatibus laboriosam, repellendus quae asperiores consequuntur!</h4>
+                <h1>O fazedor de velhos</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia et, temporibus veniam sapiente necessitatibus maxime odio cupiditate velit doloribus placeat obcaecati veritatis, blanditiis voluptatibus laboriosam, repellendus quae asperiores consequuntur!</h3>
             </div>
         </div>
     )
