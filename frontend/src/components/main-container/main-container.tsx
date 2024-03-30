@@ -8,7 +8,7 @@ function MainContainer() {
 
             <div className="left">
                 <img src="https://m.media-amazon.com/images/I/81SQWCqtWlL._SY466_.jpg" alt="Capa do Livro" />
-                <Rating className='rating' defaultValue={3.5} precision={0.5} size='large' color="" readOnly/>
+                <Rating className='rating' defaultValue={3.5} precision={0.5} size='large' readOnly/>
             </div>
 
             <div className="bar"></div>
@@ -21,4 +21,3 @@ function MainContainer() {
 }
     
 export default MainContainer
-    
