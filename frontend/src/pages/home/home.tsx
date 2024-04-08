@@ -6,9 +6,9 @@ function Home() {
 
     return (
         <div className='view'>
-            <ChevronLeft color='black' size={50} className='arrow' />
+            <ChevronLeft color='WHITE' size={50} className='arrow' />
             <MainContainer/>
-            <ChevronRight color='black' size={50} className='arrow' />
+            <ChevronRight color='WHITE' size={50} className='arrow' />
         </div>
     )
 }
