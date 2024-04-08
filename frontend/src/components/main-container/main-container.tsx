@@ -8,7 +8,15 @@ function MainContainer() {
 
             <div className="left">
                 <img src="https://m.media-amazon.com/images/I/81SQWCqtWlL._SY466_.jpg" alt="Capa do Livro" />
-                <Rating className='rating' defaultValue={3.5} precision={0.5} size='large' readOnly/>
+                <Rating className='rating' defaultValue={3.5} precision={0.5} size='large'sx={{
+                    backgroundColor: 'rgba(0, 0, 0, 0.1)', // Cor cinza para o fundo
+                    '& .MuiRating-iconFilled': {
+                        color: 'yellow', // Cor dos ícones preenchidos
+                    },
+                    '& .MuiRating-iconEmpty': {
+                        color: 'white', // Cor dos ícones vazios
+                    },
+                }} readOnly/>
             </div>
 
             <div className="bar"></div>
