@@ -35,8 +35,6 @@ function Home() {
         num == books.length - 1 ? setNum(0) : setNum(num + 1);
     }
 
-    console.log(books.length)
-
     return (
         <div className='view'>
             <ChevronLeft color='WHITE' size={50} className='arrow' onClick={handleLeftClick}/>

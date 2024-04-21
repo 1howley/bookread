@@ -48,7 +48,7 @@ img {
         flex-wrap: wrap;
         justify-content: center;
         height: 60vh;
-        width: 60vw;
+        width: 100vw;
         padding: 0;
     }
     img {
@@ -57,6 +57,9 @@ img {
         margin-bottom: 15%;
     }
     .bar {
+        display: none;
+    }
+    .text {
         display: none;
     }
 }
