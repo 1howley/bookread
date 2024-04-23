@@ -9,7 +9,7 @@ function MainContainer({ book }: {book: Book} ) {
 
             <div className="left">
                 <img src={book.image_url} alt="Capa do Livro" />
-                <Rating className='rating' defaultValue={book.evaluation} precision={0.5} size='large'sx={{
+                <Rating className='rating' value={book.evaluation} precision={1} size='large'sx={{
                     backgroundColor: 'rgba(0, 0, 0, 0)', 
                     '& .MuiRating-iconFilled': {
                         color: 'yellow', 
